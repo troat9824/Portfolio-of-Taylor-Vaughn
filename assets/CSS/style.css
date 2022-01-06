@@ -1,12 +1,22 @@
 * {
     text-decoration: none;
+    color: white;
 }
-
+ {
+    background-image: url(../images/photographer\ image.jpg);
+    background-position: center;
+    background-size: 100%;
+}
 header {
-    color: teal;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-size: 1.75vw;
+    font-size: 1.9vw;
+    background-color: black;
+}
+.intro {
+    background-image: url(../images/photographer\ image.jpg);
+    background-position: center;
+    background-size:cover;
 }
 header nav ul {
     display: flex;
@@ -20,14 +30,39 @@ header nav ul li {
 }
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.6vw;
+    font-weight: bolder;
+    font-size: 1.75vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+section img {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    justify-content: flex-end;
+    margin: 1% 5%;
+    float:right;
+}
+.intro h2 {
+    text-align: center;
+    font-size: 36px;
+    display: block;
+}
+.intro div {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
-.intro {
-    background-color: black;
-    color: #fff;
+.intro div p {
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 1.75vw;
+    line-height: 1.6;
+    margin: 10%;
+}
+div h2 {
+    text-align: center;
+    font-size: 36px;
+    display: block;
 }
