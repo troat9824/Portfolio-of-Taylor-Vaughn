@@ -34,7 +34,7 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-section img {
+.about-me-text img {
     height: 35%;
     width: 35%;
     position: relative;
@@ -69,13 +69,29 @@ div h2 {
     font-size: 2vw;
     display: block;
 }
-
-.run-buddy {
-    
+.run-buddy-text, .Brew-near-you-text {
+    font-size: 1.75vw;
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
 }
-
-
-
+.run-buddy img, .Brew-near-you img {
+    position:relative;
+    width: 50%;
+    height: 50%;
+    padding: 60px;
+}
+a:hover {
+    color:black;
+}
+.run-buddy-flex, .Brew-near-you-flex {
+    display: flex;
+}
+.Contact-info {
+    text-align: center;
+    font-size: 2vw;
+}
 @media only screen and (max-width: 1248px) {
     .about-me-text {
         flex-direction: column;
