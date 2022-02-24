@@ -1,6 +1,7 @@
 * {
     text-decoration: none;
     color: white;
+    box-sizing: border-box;
 }
 body {
     background: url(../images/photographer\ image.jpg) no-repeat center center fixed;
@@ -69,28 +70,29 @@ div h2 {
     font-size: 2vw;
     display: block;
 }
-.run-buddy-text, .Brew-near-you-text {
-    font-size: 1.75vw;
+.projects-text {
+    font-size: 1.5vw;
     display: inline-block;
     flex-wrap: wrap;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
-.run-buddy img, .Brew-near-you img {
+.projects-img {
     position:relative;
-    width: 50%;
-    height: 50%;
-    padding: 60px;
+    width: 80%;
+    height: 80%;
+    padding: 80px;
 }
 a:hover {
-    color:black;
+    color:blueviolet;
 }
-.run-buddy-flex, .Brew-near-you-flex {
+.projects-flex {
     display: flex;
+    /* border: 2px solid red; */
 }
-.Contact-info {
+#Contact-info {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 @media only screen and (max-width: 1248px) {
     .about-me-text {
