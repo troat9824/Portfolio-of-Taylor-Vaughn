@@ -2,14 +2,17 @@
     text-decoration: none;
     color: white;
     box-sizing: border-box;
+    font-family: American Typewriter, serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
+
 body {
-    background: url(../images/photographer\ image.jpg) no-repeat center center fixed;
+    background: url(../images/AdobeStock_289988906.jpeg) no-repeat center center fixed;
     background-size: cover;
 }
 header {
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-size: 2vw;
     justify-content: space-evenly;
 }
@@ -44,7 +47,7 @@ header nav ul li a {
 }
 .intro h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 .intro div {
     display: flex;
@@ -90,14 +93,23 @@ a:hover {
     display: flex;
     /* border: 2px solid red; */
 }
+
 #Contact-info-page {
     text-align: center;
     font-size: 1.75vw;
 }
 @media only screen and (max-width: 1248px) {
-    .about-me-text {
+    * {
         flex-direction: column;
         justify-content: center;
+    }
+    .projects-img {
+        padding: 0%;
+        justify-content: center;
+        display: block;
+    }
+    .projects-text {
+        padding: 20px;
     }
 }
 
