@@ -12,6 +12,7 @@ body {
     background-size: cover;
 }
 header {
+    padding: 200px 0px;
     text-align: center;
     font-size: 2vw;
     justify-content: space-evenly;
@@ -102,6 +103,16 @@ a:hover {
     * {
         flex-direction: column;
         justify-content: center;
+    }
+    header {
+        padding: 100px 0px;
+        font-size: 3vh;
+    }
+    header nav ul li a {
+        font-size: 2.5vh;
+    }
+    header nav ul li {
+        padding: 20px;
     }
     .projects-img {
         padding: 0%;
