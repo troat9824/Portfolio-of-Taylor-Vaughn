@@ -103,6 +103,7 @@ a:hover {
     * {
         flex-direction: column;
         justify-content: center;
+        display:flex;
     }
     header {
         padding: 100px 0px;
@@ -114,6 +115,7 @@ a:hover {
     header nav ul li {
         padding: 20px;
     }
+
     .projects-img {
         padding: 0%;
         justify-content: center;
@@ -121,6 +123,22 @@ a:hover {
     }
     .projects-text {
         padding: 20px;
+        font-size: 2vh;
+    }
+    .projects h2 {
+        font-size: 2.5vh;
+    }
+    #Contact-info-page {
+        font-size: 2vh;
+    }
+    #Contact-info-page h2 {
+        font-size: 2.5vh;
+    }
+    .about-me-container h2 {
+        font-size: 2.5vh;
+    }
+    .about-me-text p {
+        font-size: 2vh;
     }
 }
 
