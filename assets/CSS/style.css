@@ -2,7 +2,6 @@
     text-decoration: none;
     color: white;
     box-sizing: border-box;
-    font-family: American Typewriter, serif;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
@@ -10,12 +9,14 @@
 body {
     background: url(../images/AdobeStock_289988906.jpeg) no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Merriweather', serif;
 }
 header {
     padding: 200px 0px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 65px;
     justify-content: space-evenly;
+    font-family: 'Alfa Slab One', cursive !important;
 }
 .intro {
 
@@ -98,6 +99,7 @@ a:hover {
 #Contact-info-page {
     text-align: center;
     font-size: 1.75vw;
+    font-family: 'Alfa Slab One', cursive !important;
 }
 @media only screen and (max-width: 1248px) {
     * {
@@ -140,6 +142,9 @@ a:hover {
     .about-me-text p {
         font-size: 2vh;
     }
+}
+span {
+    font-size: 170px;
 }
 
 @media only screen and (max-width: 375px) {

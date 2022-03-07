@@ -39,7 +39,11 @@ function contactMe() {
     contactMePage.style.display = "block";
 }
 
+// start on header page only
 enterPage();
+// about me is clicked, show only about me and header
 aboutMeLink.addEventListener('click', aboutMe);
+// work ive done is clicked, show only work ive done and header
 workIveDoneLink.addEventListener('click', workIveDone);
+// contact me is clicked, show only contact info and header
 contactMeLink.addEventListener('click', contactMe);
